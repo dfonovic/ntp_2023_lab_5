@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Motor
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Motor\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=model\ snaga
+comment1.target=Motor(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getModel()
+comment3.params=model
+comment3.target=void\ setModel(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getSnaga()
+comment5.params=snaga
+comment5.target=void\ setSnaga(java.lang.String)
+numComments=6
