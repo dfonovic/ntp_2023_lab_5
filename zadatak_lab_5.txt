@@ -1,0 +1,17 @@
+Klasa Proizvod sadrži nekoliko enkapsuliranih atributa te metodu: ispisiInformacije().
+
+public class Proizvod {
+	private int id;
+	private String naziv; 
+	private double cijena;
+	public Proizvod(int id, String naziv, double cijena) {
+	this.setId(id); 
+	this.setNaziv(naziv); 
+	this.setCijena(cijena);
+
+	public void ispisiInformacije() { System.out.println(getId() + ", " + getNaziv() + ", " + getCijena() + " eura"); }
+}
+
+Trgovina prodaje dvije vrste proizvoda – sudopere i pločice. Obje vrste imaju zajedničke atribute (šifru proizvoda, naziv i cijenu), ali i vlastite specifične atribute. 
+Sudoperi imaju tip ugradbeni ili nadgradni (koristite enumeraciju), dok pločice imaju svoju dimenziju (duljinu i širinu).
+Korištenjem nasljeđivanja prikažite klase Sudoper i Plocica koji nasljeđuju razred Proizvod te dodaju vlastite atribute.
